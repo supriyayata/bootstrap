@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b20a381997.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./House Plants.html" class="navbar-logo-img" />
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#ChefHomesection" id="nav-menu-option0">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#WhyChooseUssection" id="nav-menu-option1">Why Choose Us</a>
+                <a class="nav-link" href="#ExploreMenusection" id="nav-menu-option2">Explore Menu</a>
+                <a class="nav-link" href="#DeliveryPaymentssection" id="nav-menu-option3">Delivery & Payments</a>
+                <a class="nav-link" href="#FollowUSsection" id="nav-menu-option4">Follow US</a>
+            </div>
+        </div>
+    </nav>
+    <div id="ChefHomesection">
+        <div class="bg-Chef-Home d-flex flex-column justify-content-center">
+            <div class="text-center">
+                <h1 class="Chef-Home-heading">Food is everything we need</h1>
+                <p class="Chef-Home-para">Eat full & Stay young</p>
+                <button class="view-home mr-3">View Menu</button>
+                <button class="order-home">Order food</button>
+            </div>
+        </div>
+    </div>
+    <div id="WhyChooseUssection">
+        <div class="bg-whyChooseUs pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="WCU-heading-1">Why Choose Us</h1>
+                        <p class="WCU-para-1">Here the food is made with traditional methods and fresh food.</p>
+                    </div>
+                    <div class="col-12 col-md-6 text-center mb-4">
+                        <div class="WCU-bg-card shadow">
+                            <div class="mb-3">
+                                <img src="https://img.freepik.com/free-vector/good-food-logo-design-template_79169-54.jpg?w=740" class="WCU-card-img" />
+                            </div>
+                            <h1 class="WCU-card-heading-1">Healthy Food</h1>
+                            <p class="WCU-card-para-1">We serve the healthy food with taste and freshness. The Chef restaurant is all about traditional methods with eco friendly and healthy food.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 text-center mb-4">
+                        <div class="WCU-bg-card shadow">
+                            <div class="mb-3">
+                                <img src="https://img.freepik.com/free-vector/catering-quality-food-design-logo_187482-593.jpg?w=740" class="WCU-card-img" />
+                            </div>
+                            <h1 class="WCU-card-heading-1">Great Chef</h1>
+                            <p class="WCU-card-para-1">The chef offers food prepared by the top chefs around the world and with their native cuisines. Who do prefer the expert or a beginner?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 text-center mb-4">
+                        <div class="WCU-bg-card shadow">
+                            <div class="mb-3">
+                                <img src="https://as1.ftcdn.net/v2/jpg/03/18/06/54/1000_F_318065453_6IYnxkx8xA51PlucgYU8LzdydKUoo2bk.jpg" class="WCU-card-img" />
+                            </div>
+                            <h1 class="WCU-card-heading-1">Delicious Food</h1>
+                            <p class="WCU-card-para-1">No matter how healthy we eat, We all crave for that tasty food which is our main theme. The chef fill your tummy with food and your heart with the taste and yumminess.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 text-center mb-4">
+                        <div class="WCU-bg-card shadow">
+                            <div class="mb-3">
+                                <img src="https://as1.ftcdn.net/v2/jpg/03/18/06/54/1000_F_318065453_6IYnxkx8xA51PlucgYU8LzdydKUoo2bk.jpg" class="WCU-card-img" />
+                            </div>
+                            <h1 class="WCU-card-heading-1">Green & Natural</h1>
+                            <p class="WCU-card-para-1">No matter how healthy we eat, We all crave for that tasty food which is our main theme. The chef fill your tummy with food and your heart with the taste and yumminess.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="ExploreMenusection">
+        <div class="WCU-explore-bg pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="WCU-explore-heading-1">Explore Menu</h1>
+                    </div>
+                    <div class="col-12 p-4 col-md-6 col-lg-4">
+                        <div class="WCU-explore-bg-card text-center shadow">
+                            <div>
+                                <img src="https://img.freepik.com/free-photo/biryani-indian-meal_130884-7.jpg?w=1060" class="WCU-explore-card-img-1" />
+                            </div>
+                            <p class="WCU-explore-para-1 mt-3">Non-Veg & Spice</p>
+                            <a href="">
+                                <p class="WCU-explore-viewmore">View More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2c382c" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 p-4 col-md-6 col-lg-4">
+                        <div class="WCU-explore-bg-card text-center shadow">
+                            <div>
+                                <img src="https://thumbs.dreamstime.com/z/homemade-spicy-traditional-fried-fish-served-green-salads-rustic-wooden-table-healthy-meal-seafood-fresh-fish-fry-140768457.jpg" class="WCU-explore-card-img-1" />
+                            </div>
+                            <p class="WCU-explore-para-1 mt-3">Sea food & Spice</p>
+                            <a href="">
+                                <p class="WCU-explore-viewmore">View More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2c382c" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 p-4 col-md-6 col-lg-4">
+                        <div class="WCU-explore-bg-card text-center shadow">
+                            <div>
+                                <img src="https://www.haribhoomi.com/h-upload/2022/03/03/1401456-pav-bhaji.webp" class="WCU-explore-card-img-1" />
+                            </div>
+                            <p class="WCU-explore-para-1 mt-3">Indian street food</p>
+                            <a href="">
+                                <p class="WCU-explore-viewmore">View More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2c382c" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 p-4 col-md-6 col-lg-4">
+                        <div class="WCU-explore-bg-card text-center shadow">
+                            <div>
+                                <img src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2020-02/Chilli-Garlic-Noodles-Veg.jpg" class="WCU-explore-card-img-1" />
+                            </div>
+                            <p class="WCU-explore-para-1 mt-3">Chinese & more</p>
+                            <a href="">
+                                <p class="WCU-explore-viewmore">View More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2c382c" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 p-4 col-md-6 col-lg-4">
+                        <div class="WCU-explore-bg-card text-center shadow">
+                            <div>
+                                <img src="https://img.freepik.com/free-photo/indian-food-thali_57665-1351.jpg?w=1060" class="WCU-explore-card-img-1" />
+                            </div>
+                            <p class="WCU-explore-para-1 mt-3">North Indian</p>
+                            <a href="">
+                                <p class="WCU-explore-viewmore">View More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2c382c" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 p-4 col-md-6 col-lg-4">
+                        <div class="WCU-explore-bg-card text-center shadow">
+                            <div>
+                                <img src="https://d4t7t8y8xqo0t.cloudfront.net/eazymedia/eazytrendz/2072/4.jpg" class="WCU-explore-card-img-1" />
+                            </div>
+                            <p class="WCU-explore-para-1 mt-3">South Indian</p>
+                            <a href="">
+                                <p class="WCU-explore-viewmore">View More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2c382c" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-5 pb-5 Healthyfood-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="https://t3.ftcdn.net/jpg/02/14/59/76/240_F_214597619_GgPZ3cQAasuYwMTeEqopTKfjMo2cOF8U.jpg" class="w-100 mt-5" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div>
+                        <h1 class="WCU-heading-1 mt-4 mb-4">Good food is foundation of genuine happiness.</h1>
+                        <p class="WCU-para-1">We are what we eat. So, this is just not a line but a fact of the humankind. We are here to feed your hunger and fill your tummy with all the goodness!!!</p>
+                        <button class="Healthyfood-video-button">Watch Video</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DeliveryPaymentssection">
+        <div class="pt-5 pb-5 deliveryPayments-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 order-md-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/30-percent-off-everything-corroded-round-seal-print-recursion-collage-repeat-shopping-order-white-seal-includes-30-percent-off-everything-caption-inside-round-shape-3d-rendering_558349-65.jpg?w=740" class="w-100 mt-5" />
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 order-md-1">
+                        <div class="mt-md-5">
+                            <h1 class="WCU-heading-1 mt-4 mb-4">Delivery and Payments.</h1>
+                            <p class="WCU-para-1">Get 30% off!!! You can order now to get your food at your doorstep with live tracking on map. With plenty of payment options we made your bill payment easy.</p>
+                            <button class="Healthyfood-video-button">Order now</button>
+                            <div class="mt-3">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" />
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img" />
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-img" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="giftcard-bg pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-md-center">
+                    <div class="pr-4 pl-4">
+                        <h1 class="WCU-heading-1 ">Thank you for being a valuable customer at TheChef.</h1>
+                        <p class="WCU-para-1">Here is your surprize</p>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="w-50 mt-5 mb-5 d-md-none" />
+                        <!-- Button trigger modal <-->
+                        <button type="button" class="Healthyfood-video-button d-block" data-toggle="modal" data-target="#exampleModal">
+                            Redeem Gift
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Gift Card Coupon</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://img.freepik.com/free-vector/sales-concept-with-coupon_23-2147945832.jpg?t=st=1655033473~exp=1655034073~hmac=5eafd455307a7db0fdd2fc673cff58c0990009ad43109f1197642c52995fe7a6&w=740" class="w-100" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Redeem now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="w-100 mt-5 mb-5" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="FollowUSsection">
+        <div class="followUs-bg pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="WCU-heading-1 mb-4">Follow Us</h1>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="icon-bg mr-2">
+                                <i class="fa-brands fa-twitter icon-style-follow"></i>
+                            </div>
+                            <div class="icon-bg mr-2">
+                                <i class="fa-brands fa-instagram icon-style-follow"></i>
+                            </div>
+                            <div class="icon-bg mr-2">
+                                <i class="fa-brands fa-facebook icon-style-follow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-5 pb-5 footer-bg-chef">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <img src="https://img.freepik.com/free-vector/chef-restaurant-logo-stock-illustrations-template_83529-158.jpg?w=740" class="navbar-logo-img mb-4" />
+                        <p class="footer-email">TheChefRestowebResponsive@gmail.com</p>
+                        <p class="footer-address">5-23, ayyangari street, Mahanagaram.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
